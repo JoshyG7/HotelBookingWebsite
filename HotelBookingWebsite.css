@@ -1,0 +1,345 @@
+.logo{
+    display: inline-block;
+    margin-right: 440px;
+    margin-left: 10px;
+}
+.title{
+    display: inline-block;
+}
+.title a{
+    margin-right: 20px;
+    cursor: pointer;
+    font-size: large;
+}
+button{
+    background-color: greenyellow;
+    border-radius: 5px;
+    border-color: greenyellow;
+    height: 30px;
+    width: 170px;
+    cursor: pointer;
+}
+.page{
+    margin-top: 12px;
+    padding-left: 40px;
+    background-color: aqua;
+    height: 500px;
+    color: white;
+    background-image: url("image2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.page h1{
+    display: inline-block;
+    padding-top: 200px;
+    font-size: 50px;
+    margin-bottom: 1px;
+}
+.sec{
+    display: inline-block;
+}
+.logo{
+    font-size: 30px;
+}
+.date{
+    padding-top: 4px;
+    height: 60px;
+    background-color: black;
+}
+.date p{
+    padding-left: 50px;
+    padding-right: 27px;
+    color: white;
+    display: inline-block;
+}
+input{
+    margin-right: 13px;
+    height: 24px;
+    width: 170px;
+}
+.info{
+    display: inline-block;
+    margin-top: 50px;
+    padding-left: 100px;
+}
+.info img{
+    height: 200px;
+    width: 350px;
+    float: right; 
+    margin-right:90px; 
+    padding: 2px;
+}
+.info p{
+    display: inline-block;
+    margin-top: 1px;
+    font-size: 30px;
+}
+.cut{
+    padding-top: 30px;
+    padding-left: 250px;
+    margin-top: 50px;
+    height: 100px;
+    background-color: rgb(60, 92, 155);
+}
+.cut a{
+    padding-right: 130px;
+    color: white;
+    font-size: 35px;
+}
+.line a{
+    display: inline-block;
+    margin-top: -60px;
+    padding-left: 12px;
+}
+.name a{
+    padding-right: 105px;
+    font-size: 13px;
+}
+.img1 img, .img2 img, .img3 img, .img4 img{
+    display: inline-block;
+    width: 250px;
+    height: 200px;
+    padding-right: 30px;    
+}
+.img2, .img1,.img3, .img4{
+    display: inline-block;
+}
+.room   {
+    /* margin-top: 40px;
+    margin-left: 70px; */
+    width: 1300px;
+    height: 400px;
+    margin-top: 30px;
+    display: flex;
+    overflow: hidden;
+}
+.nm{
+  display: flex;
+  overflow: hidden;
+}
+.box{
+    margin: 10px;
+    width: 800px;
+    height: 420px;
+    box-shadow: -1px 0 10px #000000;
+    align-self: center;
+    justify-content: center;
+    text-align: center;
+    animation: scroll 20s linear infinite;
+}
+@keyframes scroll{
+  0%{
+    transform: translateX(0);
+  }
+  100%{
+    transform: translateX(calc(-250px * 9));
+  }
+}
+img{
+    width: 290px;
+    height: 200px;
+}
+.room1   {
+    margin-top: 40px;
+    margin-left: 70px;
+}
+.room1 a{
+    display: inline-block;
+    margin-top: 30px;
+    font-size: 30px;
+}
+.checked {
+    color: orange;
+  }
+  .box a{
+    color: green;
+    font-weight: bold;
+    font-size: 20px;
+  }
+  .garl a, .arl a,.new a{
+    margin-left: 70px;
+  }
+  .garl p,.arl p,.new p{
+    font-size: 32px;
+    margin-top: 62px;
+    margin-bottom: 15px;
+    margin-left: 70px;
+  }
+  .in{
+    margin-top: 20px;
+    display: flex;
+    animation: scroll 20s linear infinite;
+  }
+  .in img{
+    padding-left: 10px;
+    cursor: pointer;
+    width: 210px;
+    height: 170px;
+    transition: transform 1s;
+  }
+  .in img:hover{
+    transform: translateZ(20px);
+  }
+.box1,.box2,.box3,.box4{
+    padding-top: 80px;
+    text-align: center;
+    display: inline-block;
+    width: 300px;
+    height: 120px;
+    background-color: white;
+    margin-top: 14px;
+    margin-left: 10px;
+    box-shadow: -1px 0 10px #000000;
+    cursor: pointer;
+    font-size: 25px;
+}
+.box1, .box3{
+    margin-left: 70px;
+}
+.arl img{
+    position: absolute;
+    right: 100px;
+    top: 2090px;
+    width: 450px;
+    height: 415px;
+}
+.more{
+    color: white;
+    text-align: center;
+    margin-top: 70px;
+    height: 250px;
+    background-color:  rgb(60, 92, 155);
+    padding-left: 90px;
+    padding-right: 90px;
+    padding-top: 60px;
+}
+.more span{
+    font-size: 50px;
+}
+.more a{
+    font-size: 20px;
+    color: greenyellow;
+    margin-top: 1px;
+}
+.room2{
+    width: 900px;
+    height: 400px;
+    margin-top: 30px;
+    display: flex;
+}
+.box21,.box211{
+    display: inline-block;
+    margin: 10px;
+    width: 290px;
+    height: 360px;
+    box-shadow: -1px 0 10px #000000;
+    align-self: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: -25px;
+}
+.box21 a,.box211 a{
+    color: green;
+    font-weight: bold;
+    font-size: 20px;
+  }
+  .box211{
+    margin-left: 70px;
+  }
+  .box21 p,.box211 p{
+    margin-top: -9px;
+    display: inline-block;
+  }
+  .ent{
+    position: absolute;
+    left: 700px;
+    width: 800px;
+    height: 100px;
+  }
+  .ent img{
+    width: 100px;
+    height: 90px;
+  }
+  .sub{
+    padding-top: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+    background-color: greenyellow;
+    color: white;
+    height: 55px;
+    border-radius: 10px;
+  }
+  .sub a{
+    font-size: 32px;
+    font-weight: 500;
+    padding-left: 20px;
+  }
+  .sub input{
+    margin-right: 0px;
+    margin-left: 200px;
+    width: 250px;
+    border-color: white;
+    border-radius: 3px;
+    background-color: rgb(180, 212, 132);
+  }
+  .sub button{
+    background-color: white;
+  }
+  .ote{
+    display: flex;
+    background-color: #343333;
+    height: 320px;
+  }
+  .fir{
+    margin-left: 130px;
+  }
+  .fir, .cont{
+    display: inline-block;
+    padding-top: 60px;
+    color: white;
+    width: 350px;
+    height: 300px;
+  }
+  .fir a, .link a,  .cont a{
+    font-size: 32px;
+  }
+  .link{
+    display: inline-block;
+    padding-top: 60px;
+    margin-left: 70px;
+    color: white;
+    cursor: pointer;
+    width: 350px;
+    height: 300px;
+  }
+  .link p{
+    display: inline-block;
+  }
+  .cont{
+    margin-left: -110px;
+  }
+  .last{
+    background-color: #343333;
+    color: white;
+    /* padding-left: 50px; */
+  }
+  button:hover{
+    background-color: white;
+  }
+  .box1:hover,.box2:hover,.box3:hover,.box4:hover{
+    background-color: greenyellow;
+    color: white;
+  }
+  .title a:hover{
+    color: green;
+  }
+  .room1 button,.garl button{
+    height: 40px;
+    width: 45px;
+    position: relative;
+    right: -900px;
+    font-size: 27px;
+  }
+  .garl p{
+    display: inline-block;
+  }
